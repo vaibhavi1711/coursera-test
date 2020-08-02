@@ -1,0 +1,125 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #4da6ff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #24248f;
+	border-radius: 0;
+	border: 0;
+    padding: 25px;
+
+}
+
+.navbar-brand {
+	padding: 20px;
+}
+
+.navbar-brand h1 {/* Heading */
+	font-family: 'Lora', serif;
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .50; 
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #ffffff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #5d5dd5;
+}
+
+#nav-list a {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* End of header */
+
+/* Heading Our Menu */
+
+#heading {
+	margin-top: 15px;
+	margin-bottom: 50px;
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* End Of Heading */
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	height: auto;
+	width: 100%;
+	padding: 25px;
+	margin-bottom: 20px;
+	position: relative;
+	border: 5px;
+	overflow: hidden;
+	color: #000000;
+	background-color: #ffffff;
+
+}
+
+#chicken-tile h3, #beef-tile h3, #sushi-tile h3 {
+	margin-top: 0;
+	font-size: 2em;
+
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /* headimg */
+		padding-top: 10px;
+		font-size: 7vw; /* 1vw = 1% of viewport width */
+	}
+	#collapsable-nav a { /*Collapsed nav menu glyph */
+		font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+    	font-size: 1em;
+    	margin-right: 5px;
+    }
+
+    #call-btn > a {
+    	font-size: 1.5em;
+    	display: block;
+    	margin: 0 20px;
+    	padding: 10px;
+    	border: 2px solid #fff;
+    	background-color: #f6b319;
+    	color: #951c49;
+    }
+
+    #chicken-tile, #beef-tile, #sushi-tile {
+	height: auto;
+	width: 100%;
+	padding: 25px;
+    }
+
+
+}
+
+
+
+
+
+
